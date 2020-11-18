@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sobre</title>
+    <style>
+        h3 {
+            color: white;
+        }
+
+        h6 {
+            color: white;
+        }
+        img.redes {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            
+            <h3><b>Primeiramente 1960-1972</b></h3>
+            <h6><p>A história das redes de computadores iniciou por volta da década de 60, onde a rede telefônica, era a rede de comunicação que dominava o mundo, nesta a voz era transmitida por comutação de circuitos a uma taxa constante entre a origem e o destino. O desenvolvimento de minis e microcomputadores de bom desempenho, com requisitos menos rígidos de temperatura e umidade, permitiu a instalação de considerável poder computacional em várias localizações, ao invés de em uma determinada área, mas faltava um meio para unir estes computadores.
+            <p>Apesar do alto custo dos computadores nesta década, pode-se dizer que com o surgimento da multiprogramação, começou a ocorrer à necessidade de interligar computadores de modo que se pudessem compartilhar informações entre diferentes usuários e diferentes regiões, esta necessidade surgiu naturalmente pela espera de acontecimentos futuros. O tráfego gerado por estes usuários, ocorreria em uma seqüência de atividades, onde ao acionar um comando a um computador distante (remoto) ,este permaneceria por alguns instantes inativo, explorando e aguardando uma resposta.
+            <p>Em busca de como transformar a comutação de circuitos em uma comutação de pacotes, três grupos de pesquisa separadamente iniciaram seus estudos. Sendo o primeiro em 1961, onde Leonard Kleinrock nos laboratórios MIT usou a teoria das filas, a comutação de pacotes baseada no tráfego em rajadas. Já por volta de 1964 Paul Baran do Rand Institute começou a estudar o uso da comutação de pacotes para a segurança da transmissão de voz para redes militares, e na Inglaterra Donald Davies e Roger Scantlebury desenvolviam idéias sobre a comutação de pacotes no National Physical Laboratory. Estes trabalhos, junto com Lawrence Roberts também no MIT lideravam o projeto de ciência de computadores na ARPA (EUA - Agência de Projetos de Pesquisa Avançada).
+            <p>Roberts por volta de 1967 publicou a ARPAnet (a precursora da grande rede mundial- a Internet), sendo a rede de computadores por comutação de pacotes. Os primeiros comutadores de pacotes ficaram conhecidos como IMPs (interface message processors), processadores de mensagens de interface, sendo fabricados pela empresa BBN.
+            <p>Em 1969 o primeiro IMP foi instalado na Universidade da Califórnia com três IMPs adicionais, depois no Stanford Research Institute, em Santa Bárbara e na Universidade de Utah, todos supervisionados por Leonard Kleinrock (figura 1), sendo a primeira utilização um login remoto entre a Universidade da Califórnia com o Research Institute que acabou derrubando o sistema então com 4 nós. Por volta de 1972 a ARPAnet já tinha 15 nós e foi publicamente apresentada por Robert Kahn na Conferência Internacional de Computadores. O primeiro protocolo de controle de rede deste sistema foi o NCP (network-control protocol), sendo elaborado também o primeiro programa de e-mail por Ray Tomlinson na BBN. Devido a ARPAnet ser única na época era uma rede fechada e para se comunicar com suas máquinas era preciso estar ligado a um de seus IMPs.
+            <p>Na foto abaixo o primeiro IMP com Leonard Kleinrock.</h6>
+
+
+            <h3><b>Período entre 1972 - 1980</b></h3>
+            <h6><p>Continuando o histórico das redes de computadores entre o período de 1972  a 1980:
+            <p>Por volta de 70 começaram a surgir outras redes de comutação de pacotes como:
+            <ul>
+                <li>ALOHAnet: rede de microondas via rádio que interligava as ilhas do Havaí;
+                <li>TELENET: comutação de pacotes comerciais da BBN baseada na tecnologia da Arpanet;
+                <li>TAYMNET e TRANSPAC: rede de comutação de pacotes franceses.
+            </ul>
+            <p>O número de pequenas redes crescia cada vês mais sendo apresentado por Robert Metcalfe os princípios de uma rede local, uma ETHERNET Que mais tarde originariam LANs de curta distância. 
+            <p>O trabalho pioneiro da interconexão de redes foi supervisionado pela DARPA (Agencia de Projetos de Pesquisa Avançada de Defesa), por Vinton Cerf e Robert Kahn, criando uma arquitetura, uma rede de redes baseados na criação de um protocolo, o TCP (transmission control protocol) responsável pela entrega seqüencial e confiável de pacotes. Com o tempo o serviço deste foi modificado devido à procura de um controle maior do fluxo de informações, sendo então dividido o protocolo TCP, ficando responsável somente pela organização na chegada dos pacotes, retirando a função do envio de pacotes, destinando essa ao protocolo IP e criando outro protocolo o UDP que ficou responsável pelo controle do fluxo de voz nos pacotes. 
+            <p>O trabalho pioneiro da interconexão de redes foi supervisionado pela DARPA (Agencia de Projetos de Pesquisa Avançada de Defesa), por Vinton Cerf e Robert Kahn, criando uma arquitetura, uma rede de redes baseados na criação de um protocolo, o TCP (transmission control protocol) responsável pela entrega seqüencial e confiável de pacotes. Com o tempo o serviço deste foi modificado devido à procura de um controle maior do fluxo de informações, sendo então dividido o protocolo TCP, ficando responsável somente pela organização na chegada dos pacotes, retirando a função do envio de pacotes, destinando essa ao protocolo IP e criando outro protocolo o UDP que ficou responsável pelo controle do fluxo de voz nos pacotes. 
+            <p>O trabalho pioneiro da interconexão de redes foi supervisionado pela DARPA (Agencia de Projetos de Pesquisa Avançada de Defesa), por Vinton Cerf e Robert Kahn, criando uma arquitetura, uma rede de redes baseados na criação de um protocolo, o TCP (transmission control protocol) responsável pela entrega seqüencial e confiável de pacotes. Com o tempo o serviço deste foi modificado devido à procura de um controle maior do fluxo de informações, sendo então dividido o protocolo TCP, ficando responsável somente pela organização na chegada dos pacotes, retirando a função do envio de pacotes, destinando essa ao protocolo IP e criando outro protocolo o UDP que ficou responsável pelo controle do fluxo de voz nos pacotes. 
+            <p>Além das pesquisas realizadas pela DARPA, no Havaí Norman Abramson com a rede Aloha desenvolveu um protocolo, o ALOHA que permitiu o compartilhamento de informações com um único meio de comunicação através de ondas eletromagnéticas, com freqüência de rádio (broadcast) em diferentes localizações geográficas. Este protocolo de múltiplo acesso foi aprimorado por Metcalfe e Boggs desenvolvendo a Ethernet para redes compartilhadas com fios, cujo esquema está na figura 1, que surgiu pela necessidade de conectar diversos PCs, impressoras, discos etc.. Este protocolo foi de muita importância, pois, cada rede local (lan) é uma rede diferente. Já com um grande numero destas pequenas redes, aumentava ainda mais a necessidade de uma rede maior interligado-as.
+            <p>Outras empresas também desenvolveram suas próprias arquiteturas de redes, a Digital Corporation que lançou sua primeira versão de rede em 1975, a DECnet interligando apenas dois computadores PDP-11, que continuou evoluindo com o conjunto de protocolos OSI (interconexão de sistemas abertos). A Xerox com arquitetura XNS e a IBM com arquitetura SNA, também se destacam os pesquisadores Fraser e Turner com arquitetura TM, cujos reconheciam os pacotes como células e tinham tamanhos fixos.
+            </h6>
+
+            <img class="redes" src="Imagens/redes.png" alt="Redes" title="Redes" width=500 height=300>
+
+            <h3><b>Período entre 1980 - 1990</b></h3>
+            <h6><p>No final da década de 70 aproximadamente 200 máquinas estavam conectadas a ARPAnet não só devido a pesquisas, mas também por ser utilizada para comunicação militar na Guerra Fria onde toda a comunicação passava por um computador central que se encontrava no Pentágono, ao passar esta época de guerra a Arpanet não tinha mais importância para os militares sendo passada então para maioria das universidades e outros pesquisadores que foram estendendo a comunicação por outros países chegando à década de 80 com cem mil máquinas interligadas formando uma grande rede mundial que passou a ser conhecida como Internet. A transferência de arquivos e o processamento de e-mails entre as universidades dos EUA eram feitas pela BITnet (rede de bits), e a comunicação com outras universidades não interligadas pela Arpanet eram feitas pela CSNET. No dia primeiro de janeiro de 1983 o protocolo TCP/IP tornou-se oficial, sendo obrigatório estar em todas as máquinas. Em 1986 surgiu o NSFNET o backbone primário que fornecia acesso a outros centros de computação. Também nesta época foi desenvolvido o DNS (Domain Name System), usado para conversão dos endereços em forma de letras e palavras, pois são de mais fácil memorização para nós, na forma de endereço IP de 32 bits, a linguagem dos computadores.No outro lado do mundo o governo Francês desenvolvia o projeto Minitel, uma rede publica de comutação de pacotes baseada num conjunto de protocolos chamado X.25 que usava circuitos virtuais, terminais baratos e modems embutidos, porém de baixa velocidade, disponibilizava sites de listas telefônicas e outros, havia também sites particulares onde eram pagas taxas pelos usuários conforme o tempo de uso. Em 1990 a Minitel já oferecia 20 mil serviços diferentes, e já era usada por mais de 20% da população Francesa, gerando mais de 1 bilhão de dólares por ano, e 10 mil novos empregos.Um fato interessante é que a grande rede de computadores na França já estava presente nas empresas, no comércio, nas residências 10 anos antes dos norte-americanos ouvirem falar em uma rede de computadores e menos ainda em uma desenvolvida Internet.
+            <p>No final da década de 70 aproximadamente 200 máquinas estavam conectadas a ARPAnet não só devido a pesquisas, mas também por ser utilizada para comunicação militar na Guerra Fria onde toda a comunicação passava por um computador central que se encontrava no Pentágono, ao passar esta época de guerra a Arpanet não tinha mais importância para os militares sendo passada então para maioria das universidades e outros pesquisadores que foram estendendo a comunicação por outros países chegando à década de 80 com cem mil máquinas interligadas formando uma grande rede mundial que passou a ser conhecida como Internet. 
+            <p>A transferência de arquivos e o processamento de e-mails entre as universidades dos EUA eram feitas pela BITnet (rede de bits), e a comunicação com outras universidades não interligadas pela Arpanet eram feitas pela CSNET. No dia primeiro de janeiro de 1983 o protocolo TCP/IP tornou-se oficial, sendo obrigatório estar em todas as máquinas. Em 1986 surgiu o NSFNET o backbone primário que fornecia acesso a outros centros de computação. Também nesta época foi desenvolvido o DNS (Domain Name System), usado para conversão dos endereços em forma de letras e palavras, pois são de mais fácil memorização para nós, na forma de endereço IP de 32 bits, a linguagem dos computadores.
+            <p>No outro lado do mundo o governo Francês desenvolvia o projeto Minitel, uma rede publica de comutação de pacotes baseada num conjunto de protocolos chamado X.25 que usava circuitos virtuais, terminais baratos e modems embutidos, porém de baixa velocidade, disponibilizava sites de listas telefônicas e outros, havia também sites particulares onde eram pagas taxas pelos usuários conforme o tempo de uso. Em 1990 a Minitel já oferecia 20 mil serviços diferentes, e já era usada por mais de 20% da população Francesa, gerando mais de 1 bilhão de dólares por ano, e 10 mil novos empregos.
+            <p>Um fato interessante é que a grande rede de computadores na França já estava presente nas empresas, no comércio, nas residências 10 anos antes dos norte-americanos ouvirem falar em uma rede de computadores e menos ainda em uma desenvolvida Internet.
+            </h6>
+
+            <h3><b>Período entre 1990 - 1996</b></h3>
+            <h6><p>Na década de 1990 a ARPAnet deixou de existir, a Milnet e a Rede de Dados de Defesa passaram a controlar maior parte do tráfego do Departamento de Defesa dos EUA e a NSFNET passou a ser o backbone de conexão entre os Estados Unidos e todas as redes do exterior, mas perdeu seu valor comercial em 1995, pois essa tarefa passou a ser encargo dos provedores de Internet.
+            <p>O destaque da década de 90 foi o funcionamento da World Wide Web, nos lares e empresas de milhões de pessoas espalhadas por todo mundo, para fins comerciais, bancários, empresariais, educacionais e para própria diversão. A Web foi inventada no Cern(Centro Europeu para Física Nuclear) por  Tim Berners Lee no período de 1989 a 1991, baseados em trabalhos realizados por Bush e Ted Nelson respectivamente nas décadas de 40 e 60. Berners Lee e seus companheiros desenvolveram versões iniciais de HTML, HTTP, um servidor web e um Browser. 
+            <p>O Brasil entrou na rede em 1990 criando a RNP (rede nacional de pesquisas). Em 1992 foi criada a Internet Society e já existiam 200 servidores web em operação, nesta época as pesquisas estavam mais voltadas para o desenvolvimento de browsers com interface gráfica, por exemplo, Marx Andreesen com a versão beta do GUIMosaic em 1993 e James Baker com a Mosaic Communications em 1994 que mais tarde transformou-se na Netscape Communications Corporation. Também nesta época a Embratel disponibilizou o acesso à rede de empresas e usuários particulares.
+            <p>Em 1995 os estudantes usavam diariamente os browsers Mosaic e Netscape para navegar, e pequenas e grandes empresas começaram a utiliza-los para transações comerciais, já existindo 10 milhões de servidores. 
+            <p>Em 1996 a Microsoft entrou com tudo na web com o browser Internet Explorer. Como o desenvolvimento avançava a cada dia, iniciaram pesquisas por roteadores e roteamento de alta velocidade para redes locais. e recursos como o comércio eletrônico e textos, imagens , multimídia e outros.
+            </h6>
+
+            <h3><b>Pós 1996</b></h3>
+            <h6><p>Para finalizar os artigos sobre  o histórico das redes de computadores, temos 1996 em diante. Com a enorme evolução do serviço em redes tanto em empresas como em lares surgiram além das redes Ethernet que são redes locais, redes Intranet que são redes locais ligadas a grande rede mundial, muito utilizada pelas empresas hoje para diversos fins , como comunicação com filiais, comunicação entre setores através de um sistema em rede etc.
+            <p>A grande rede formada por redes menores é hoje o componente mais importante na área da comunicação a popular e grande rede global de computadores a Internet, ainda não parou de crescer e com certeza não parará, pois o número de usuários tanto para fins empresariais como pessoais aumenta a cada dia, pois, hoje o custo para aquisição, ou acesso a uma rede é menor e tende a ficar cada vez mais barato, e ainda as maiores dificuldades seriam condições técnicas.
+            <p>Não podendo esquecer que a grande rede ainda continua com os 3 protocolos TCP, IP e UDP criados no fim da década de 70, é claro que aperfeiçoados. As estatísticas apontam que hoje há no mundo em torno de mais de 900 milhões de usuários devido a grande utilidade no gerenciamento empresarial, na políticas, nas residências, escolas, projetos de inclusão digital e em fim na sociedade em geral e  que o acesso hoje além do computador ocorre pelo celular, PDAs e outros.
+            <p>A rede sempre irá mudar, devido a demandas do tempo e do mercado, pois o tempo passa e os recursos devem passar também, é claro que os  recursos úteis sempre irão ficar. Se formos analisar blogs, vídeos , chats , msn , pesquisas,  sites de relacionamentos entre outros  são a base da internet hoje. 
+            </h6>
+        </div>
+    </div>
+</body>
+</html>

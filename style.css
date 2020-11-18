@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+div.text{
+    text-align: justify;
+    font-family: times;
+    font-weight: none;
+    color: black;
+}
+
+div.texto{
+    text-align: center;
+    font-family: Arial;
+    font-weight: none;
+    color: white;
+}
+
+body{
+    background-image: url('Imagens/globoConectado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
