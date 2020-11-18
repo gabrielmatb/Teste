@@ -7,4 +7,5 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="style.css">
-<?php include"MenuInterno/navBar.php";?>
+<?php include"MenuInterno/navBar.php";
+?>
